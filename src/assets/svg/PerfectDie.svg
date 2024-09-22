@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generator: Blender, SVG Export for Grease Pencil - v1.0 -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.0" x="0px" y="0px" xmlns="http://www.w3.org/2000/svg" width="495px" height="505px" viewBox="0 0 495 505">
+	<g id="blender_frame_1">
+		<g id="blender_object_GPencil">
+			<!--Layer: Plane_Fills-->
+			<g id="Plane_Fills">
+				<polygon fill="#D9D9D9" stroke="none" fill-opacity="1" points="88.000000,341.701538 211.181274,341.701538 211.181274,167.000000 88.000000,167.000000" />
+				<polygon fill="#D9D9D9" stroke="none" fill-opacity="1" points="88.000000,167.000000 211.181274,167.000000 211.181274,87.000061 88.000000,87.000061" />
+				<polygon fill="#D9D9D9" stroke="none" fill-opacity="1" points="88.000000,87.000061 211.181274,87.000061 211.181274,10.000000 88.000000,10.000000" />
+				<polygon fill="#D9D9D9" stroke="none" fill-opacity="1" points="211.181274,341.701538 88.000000,341.701538 88.000000,418.701477 211.181274,418.701477" />
+				<polygon fill="#D9D9D9" stroke="none" fill-opacity="1" points="211.181274,418.701477 88.000000,418.701477 88.000000,495.701538 211.181274,495.701538" />
+				<polygon fill="#D9D9D9" stroke="none" fill-opacity="1" points="211.181274,167.000000 211.181274,341.701538 288.181274,341.701538 288.181274,167.000000" />
+				<polygon fill="#D9D9D9" stroke="none" fill-opacity="1" points="211.181274,167.000000 288.181274,167.000000 288.181274,119.000000 211.181274,119.000000" />
+				<polygon fill="#D9D9D9" stroke="none" fill-opacity="1" points="288.181274,341.701538 211.181274,341.701538 211.181274,386.701599 288.181274,386.701599" />
+				<polygon fill="#D9D9D9" stroke="none" fill-opacity="1" points="288.181274,167.000000 288.181274,341.701538 410.181335,341.701538 410.181335,167.000000" />
+				<polygon fill="#D9D9D9" stroke="none" fill-opacity="1" points="288.181274,167.000000 410.181335,167.000000 410.181335,132.000000 288.181274,132.000000" />
+				<polygon fill="#D9D9D9" stroke="none" fill-opacity="1" points="410.181335,341.701538 288.181274,341.701538 288.181274,373.701538 410.181335,373.701538" />
+				<polygon fill="#D9D9D9" stroke="none" fill-opacity="1" points="410.181335,167.000000 410.181335,341.701538 485.181335,341.701538 485.181335,167.000000" />
+				<polygon fill="#D9D9D9" stroke="none" fill-opacity="1" points="410.181335,167.000000 485.181335,167.000000 485.181335,118.000000 410.181335,118.000000" />
+				<polygon fill="#D9D9D9" stroke="none" fill-opacity="1" points="485.181335,341.701538 410.181335,341.701538 410.181335,387.701538 485.181335,387.701538" />
+				<polygon fill="#D9D9D9" stroke="none" fill-opacity="1" points="88.000000,341.701538 88.000000,167.000000 10.000000,167.000000 10.000000,341.701538" />
+				<polygon fill="#D9D9D9" stroke="none" fill-opacity="1" points="10.000000,167.000000 88.000000,167.000000 88.000000,119.000000 10.000000,119.000000" />
+				<polygon fill="#D9D9D9" stroke="none" fill-opacity="1" points="88.000000,341.701538 10.000000,341.701538 10.000000,386.701599 88.000000,386.701599" />
+			</g>
+			<!--Layer: Plane_Lines-->
+			<g id="Plane_Lines">
+				<polyline stroke="#000000" stroke-opacity="1" fill="none" stroke-linecap="round" stroke-width="18" points="88.000000,10.000000 88.000000,87.000061 88.000000,167.000000 88.000000,341.701538 88.000000,418.701477 88.000000,495.701538" />
+				<polyline stroke="#000000" stroke-opacity="1" fill="none" stroke-linecap="round" stroke-width="18" points="10.000000,341.701538 88.000000,341.701538 211.181274,341.701538 288.181274,341.701538 410.181335,341.701538 485.181335,341.701538" />
+				<polyline stroke="#000000" stroke-opacity="1" fill="none" stroke-linecap="round" stroke-width="18" points="211.181274,495.701538 211.181274,418.701477 211.181274,341.701538 211.181274,167.000000 211.181274,87.000061 211.181274,10.000000" />
+				<polyline stroke="#000000" stroke-opacity="1" fill="none" stroke-linecap="round" stroke-width="18" points="485.181335,167.000000 410.181335,167.000000 288.181274,167.000000 211.181274,167.000000 88.000000,167.000000 10.000000,167.000000" />
+				<polyline stroke="#000000" stroke-opacity="1" fill="none" stroke-linecap="round" stroke-width="18" points="211.181274,87.000061 88.000000,87.000061" />
+				<polyline stroke="#000000" stroke-opacity="1" fill="none" stroke-linecap="round" stroke-width="18" points="211.181274,10.000000 88.000000,10.000000" />
+				<polyline stroke="#000000" stroke-opacity="1" fill="none" stroke-linecap="round" stroke-width="18" points="88.000000,418.701477 211.181274,418.701477" />
+				<polyline stroke="#000000" stroke-opacity="1" fill="none" stroke-linecap="round" stroke-width="18" points="88.000000,495.701538 211.181274,495.701538" />
+				<polyline stroke="#000000" stroke-opacity="1" fill="none" stroke-linecap="round" stroke-width="18" points="288.181274,386.701599 288.181274,341.701538 288.181274,167.000000 288.181274,119.000000" />
+				<polyline stroke="#000000" stroke-opacity="1" fill="none" stroke-linecap="round" stroke-width="18" points="288.181274,119.000000 211.181274,119.000000" />
+				<polyline stroke="#000000" stroke-opacity="1" fill="none" stroke-linecap="round" stroke-width="18" points="211.181274,119.000000 211.181274,167.000000" />
+				<polyline stroke="#000000" stroke-opacity="1" fill="none" stroke-linecap="round" stroke-width="18" points="211.181274,386.701599 288.181274,386.701599" />
+				<polyline stroke="#000000" stroke-opacity="1" fill="none" stroke-linecap="round" stroke-width="18" points="211.181274,341.701538 211.181274,386.701599" />
+				<polyline stroke="#000000" stroke-opacity="1" fill="none" stroke-linecap="round" stroke-width="18" points="410.181335,373.701538 410.181335,341.701538 410.181335,167.000000 410.181335,132.000000" />
+				<polyline stroke="#000000" stroke-opacity="1" fill="none" stroke-linecap="round" stroke-width="18" points="410.181335,132.000000 288.181274,132.000000" />
+				<polyline stroke="#000000" stroke-opacity="1" fill="none" stroke-linecap="round" stroke-width="18" points="288.181274,132.000000 288.181274,167.000000" />
+				<polyline stroke="#000000" stroke-opacity="1" fill="none" stroke-linecap="round" stroke-width="18" points="288.181274,373.701538 410.181335,373.701538" />
+				<polyline stroke="#000000" stroke-opacity="1" fill="none" stroke-linecap="round" stroke-width="18" points="288.181274,341.701538 288.181274,373.701538" />
+				<polyline stroke="#000000" stroke-opacity="1" fill="none" stroke-linecap="round" stroke-width="18" points="485.181335,387.701538 485.181335,341.701538 485.181335,167.000000 485.181335,118.000000" />
+				<polyline stroke="#000000" stroke-opacity="1" fill="none" stroke-linecap="round" stroke-width="18" points="485.181335,118.000000 410.181335,118.000000" />
+				<polyline stroke="#000000" stroke-opacity="1" fill="none" stroke-linecap="round" stroke-width="18" points="410.181335,118.000000 410.181335,167.000000" />
+				<polyline stroke="#000000" stroke-opacity="1" fill="none" stroke-linecap="round" stroke-width="18" points="410.181335,387.701538 485.181335,387.701538" />
+				<polyline stroke="#000000" stroke-opacity="1" fill="none" stroke-linecap="round" stroke-width="18" points="410.181335,341.701538 410.181335,387.701538" />
+				<polyline stroke="#000000" stroke-opacity="1" fill="none" stroke-linecap="round" stroke-width="18" points="10.000000,119.000000 10.000000,167.000000 10.000000,341.701538 10.000000,386.701599" />
+				<polyline stroke="#000000" stroke-opacity="1" fill="none" stroke-linecap="round" stroke-width="18" points="88.000000,119.000000 10.000000,119.000000" />
+				<polyline stroke="#000000" stroke-opacity="1" fill="none" stroke-linecap="round" stroke-width="18" points="88.000000,167.000000 88.000000,119.000000" />
+				<polyline stroke="#000000" stroke-opacity="1" fill="none" stroke-linecap="round" stroke-width="18" points="10.000000,386.701599 88.000000,386.701599" />
+				<polyline stroke="#000000" stroke-opacity="1" fill="none" stroke-linecap="round" stroke-width="18" points="88.000000,386.701599 88.000000,341.701538" />
+			</g>
+		</g>
+	</g>
+</svg>
