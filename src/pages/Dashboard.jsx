@@ -1,6 +1,6 @@
 import { Canvas } from '@react-three/fiber'
 import React, { Suspense, useState } from 'react'
-import NightClouds from '../Models/NightClouds'
+import NightClouds from '../models/NightClouds'
 import Birds from '../models/Birds'
 import Brawl from '../models/Brawl'
 import Colt from '../models/Colt'
