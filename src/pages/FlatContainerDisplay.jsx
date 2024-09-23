@@ -14,6 +14,7 @@ import HeightAlterRef from '../refactors/HeightAlterRef'
 import PolyGonWidth from '../Library/PolyGonWidth'
 import PolyGonHeight from '../Library/PolyGonHeight'
 import PolyGonLength from '../Library/PolyGonLength'
+import ProfileNavBar from '../components/ProfileNavBar'
 
 function FlatContainerDisplay() {
   const [polyGon, setPolyGon] = useState([])
@@ -27,6 +28,12 @@ function FlatContainerDisplay() {
   const [heightDuplicate, setHeightDuplicate] = useState(0)
   const [option, setOption] = useState("mm")
   const [color,setColor] = useState("white")
+  const [widthMin,setWidthMin] = useState(28.1825)
+  const [heightMin,setHeightMin] = useState(35.1974)
+  const [lengthMin,setLengthMin] = useState(68.2145)
+  const [widthMax,setWidthMax] = useState(80.4372)
+  const [heightMax,setHeightMax] = useState(56.1756)
+  const [lengthMax,setLengthMax] = useState(128.1387)
 
   useEffect(() => {
     let value = SvgReader.reader(svgRef)
@@ -171,7 +178,7 @@ function FlatContainerDisplay() {
 
   return (
     <div className='w-full h-screen flex bg-gray-100 overflow-y-hidden'>
-      <Navbar />
+      <ProfileNavBar />
       <div className='flex'>
 
         <button data-drawer-target="cta-button-sidebar" data-drawer-toggle="cta-button-sidebar" aria-controls="cta-button-sidebar" type="button" class="inline-flex items-center p-2 mt-2 ms-3 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
@@ -221,7 +228,8 @@ function FlatContainerDisplay() {
                   <label for="first_name" class="block mb-2 text-xs font-medium text-gray-900 dark:text-white">Height</label>
                   <input onChange={(e) => setHeightDuplicate(e.target.value)} value={heightDuplicate} type="text" id="first_name" class="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="John" required />
                 </div>
-                <button class="ml-5 bg-transparent hover:bg-gray-100 text-black-700 font-semibold hover:text-black py-1 px-2 border border-black-500 hover:border-transparent rounded mt-10" onClick={handleLengthController}>Load</button>
+                {option=="mm" && 
+                <button class="ml-5 bg-transparent hover:bg-gray-100 text-black-700 font-semibold hover:text-black py-1 px-2 border border-black-500 hover:border-transparent rounded mt-10" onClick={handleLengthController}>Load</button>}
               </div>
 
 
@@ -269,6 +277,16 @@ function FlatContainerDisplay() {
           <div className='font-thin'>Manufacture Dimensions</div>
           <div>{length} x {width} x {height}</div>
         </div>
+        {option=="mm" && 
+        <div className='ml-96 mt-44 absolute text-xs font-thin'>
+          <div className='font-thin'>Minimum Dimensions</div>
+          <div>{lengthMin} x {widthMin} x {heightMin}</div>
+        </div>}
+        {option=="mm" && 
+        <div className='ml-96 mt-56 absolute text-xs font-thin'>
+          <div className='font-thin'>Maximum Dimensions</div>
+          <div>{lengthMax} x {widthMax} x {heightMax}</div>
+        </div>}
 
         {polyLine.length == 0 &&
           <svg ref={svgRef} className='ml-36 mt-28' version="1.0" x="0px" y="0px" xmlns="http://www.w3.org/2000/svg" width="908px" height="437px" viewBox="0 0 716 1000">
